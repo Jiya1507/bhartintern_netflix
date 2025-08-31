@@ -443,7 +443,26 @@
       .footer-links {
         grid-template-columns: 1fr;
       }
-    }
+.hero-section {
+  height: 100vh;
+  background:
+    /* Black gradients in corners */
+    radial-gradient(circle at top left, rgba(0, 0, 0, 0.8), transparent 60%),
+    radial-gradient(circle at top right, rgba(0, 0, 0, 0.8), transparent 60%),
+    radial-gradient(circle at bottom left, rgba(0, 0, 0, 0.8), transparent 60%),
+    radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.8), transparent 60%),
+    /* main background image */
+    url('https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  position: relative;
+  color: white;
+}
   </style>
 </head>
 <body>
@@ -838,3 +857,4 @@
   </script>
 </body>
 </html>
+
